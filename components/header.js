@@ -3,7 +3,7 @@ function showHeader(el){
 
     componentEl.innerHTML = `
     <div class="header_container">
-        <a href="../index.html">
+        <a href="./index.html">
             <img src="./images/logo.png" class="header-image">
         </a>
         <button class="header_menu-mobile-button-open">

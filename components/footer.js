@@ -4,20 +4,20 @@ function showFooter(el) {
     componentEl.innerHTML = `
     <div class="footer_container">
             <div class="footer-container-image">
-                <a href="../index.html">
+                <a href="./index.html">
                     <img src="./images/logo.png" height="100%" width="100%">
                 </a>
             </div>
             <div class="footer-container-links">
-                <a href="../index.html" class="footer-links">
+                <a href="./index.html" class="footer-links">
                     <img src="./images/footer-home.png" class="footer-links-img">
                     <p class="footer-links-p">Home</p>
                 </a>
-                <a href="../servicios.html" class="footer-links">
+                <a href="./servicios.html" class="footer-links">
                     <img src="./images/footer-user.png" class="footer-links-img">
                     <p class="footer-links-p">Servicios</p>
                 </a>
-                <a href="../contacto.html" class="footer-links">
+                <a href="./contacto.html" class="footer-links">
                     <img src="./images/footer-phone.png" class="footer-links-img">
                     <p class="footer-links-p">Contacto</p>
                 </a>
