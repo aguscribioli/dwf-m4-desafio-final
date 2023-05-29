@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #13171c;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+.portfolio-content-bienvenida {
+  text-align: center;
+  margin: 0 auto;
+  height: 730px;
+  border-top: 1px solid rgba(238, 238, 238, 0.1);
+}
+
+@media (min-width: 960px) {
+  .portfolio-content-bienvenida {
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    border-top: 1px solid rgba(238, 238, 238, 0.1);
+  }
+}
+
+.portfolio-title {
+  display: grid;
+  padding-top: 50px;
+}
+
+@media (min-width: 960px) {
+  .portfolio-title {
+    margin: auto;
+    padding-top: 0;
+  }
+}
+
+.portfolio-title-1,
+.portfolio-title-2 {
+  width: 290px;
+  height: 150px;
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  color: #eeeeee;
+  margin: 0 auto;
+}
+
+@media (min-width: 960px) {
+  .portfolio-title-1,
+  .portfolio-title-2 {
+    width: 400px;
+    height: auto;
+    font-size: 80px;
+    text-align: left;
+  }
+}
+
+.portfolio-title-2 {
+  color: rgba(0, 173, 181, 1);
+}
+
+.portfolio-img {
+  height: 210px;
+  width: 220px;
+  margin: 100px auto;
+}
+
+@media (min-width: 960px) {
+  .portfolio-img {
+    width: 350px;
+    height: 340px;
+    margin: 100px auto auto;
+  }
+}
+
+.portfolio-img-ellipse {
+  display: none;
+}
+
+@media (min-width: 960px) {
+  .portfolio-img-ellipse {
+    display: inline;
+    margin-top: 50px;
+  }
+}
+
+.portfolio-content-card {
+  background-color: #13171c;
+  background-image: url(../images/servicios-doodle-items.png);
+  padding: 80px 25px;
+}
+
+@media (min-width: 960px) {
+  .portfolio-content-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+
+.portfolio_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  background: rgba(57, 62, 70, 0.5);
+  color: #eeeeee;
+  border-radius: 16px;
+  width: 375px;
+  min-height: 500px;
+  padding: 40px 25px;
+  margin: 50px auto;
+  position: relative;
+  bottom: 0;
+  transition: top ease 0.5s;
+}
+
+.portfolio_card:hover {
+  bottom: 30px;
+  padding: 40px 25px;
+}
+
+.portfolio_card-img-container {
+  width: 240px;
+  height: 170px;
+}
+
+.portfolio_card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.portfolio_card-content-container {
+  color: #eeeeee;
+}
+
+.portfolio_card-content-title {
+  font-size: 33px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.portfolio_card-content-description {
+  font-size: 16px;
+  text-align: justify;
+}
+
+a {
+  color: #eeeeee;
+}
+
+.portfolio_card-container-link {
+  text-decoration: none;
+  text-align: right;
+  align-items: bottom;
+  width: 100%;
+}
