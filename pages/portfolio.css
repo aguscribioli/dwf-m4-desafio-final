@@ -110,7 +110,7 @@ body {
   background: rgba(57, 62, 70, 0.5);
   color: #eeeeee;
   border-radius: 16px;
-  width: 375px;
+  max-width: 375px;
   min-height: 500px;
   padding: 40px 25px;
   margin: 50px auto;
