@@ -18,15 +18,15 @@ function showHeader(el){
                 <img src="./images/header-cruz-menu.png" class="header_menu-mobile-button-close-image">
             </button>
             <div class="header_menu-mobile-window-links">
-                <a class="header_menu-mobile-window-a" href="../portfolio.html">Portfolio</a>
-                <a class="header_menu-mobile-window-a" href="../servicios.html">Servicios</a>
-                <a class="header_menu-mobile-window-a" href="../contacto.html">Contacto</a>
+                <a class="header_menu-mobile-window-a" href="./portfolio.html">Portfolio</a>
+                <a class="header_menu-mobile-window-a" href="./servicios.html">Servicios</a>
+                <a class="header_menu-mobile-window-a" href="./contacto.html">Contacto</a>
             </div>
         </div>
         <div class="header_menu-desktop">
-            <a class="header_menu-desktop-text" href="../portfolio.html">Portfolio</a>
-            <a class="header_menu-desktop-text" href="../servicios.html">Servicios</a>
-            <a class="header_menu-desktop-text" href="../contacto.html">Contacto</a>
+            <a class="header_menu-desktop-text" href="./portfolio.html">Portfolio</a>
+            <a class="header_menu-desktop-text" href="./servicios.html">Servicios</a>
+            <a class="header_menu-desktop-text" href="./contacto.html">Contacto</a>
         </div>
     </div>`
 
