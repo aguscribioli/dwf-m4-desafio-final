@@ -4,6 +4,8 @@
 
 body {
   background-color: #13171c;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
 }
 
 .contacto_form-container {
